@@ -1,0 +1,193 @@
+<html>
+<meta charset='UTF-8'></meta>
+<title>Register</title>
+<head>
+	
+	<link rel='stylesheet' type='text/css' href='css/register.css' />
+	<!--
+	<style type="text/css">
+    h1  {
+       text-align: center;
+       font-size: 12pt;
+       color: #000099;
+       margin-bottom: 5px;
+       text-decoration: underline;
+    }
+    
+    table {
+       margin: 5px;
+       width: 360px;
+    }
+    
+    th {
+       padding: 3px;
+    }
+    
+    td {
+       padding-left: 8px;
+       padding-right: 8px;
+       border: 1px solid #990000;
+       background-color: #ffffcc;
+    }
+    
+    #trHeader {
+       text-decoration: underline;
+       color: #990000;
+	   text-align: center;
+    }
+    
+	#asterisksymbol {
+		color: red;
+	}
+	
+    .centerCell {
+       text-align: center;
+    }
+
+ </style>
+-->
+
+
+
+</head>
+
+<body>
+
+<h1>Register</h1>
+	<main>
+	
+	
+		<p>
+		
+				<form method="get"  action=“http://localhost/bouncer.php">
+			<table >
+		<tr id='trHeader'>
+			<!--<td colspan='1'></td>-->
+			<td  class='customerinfo' colspan='3'>Customer Infomation</td>
+			<!--<td colspan='1'></td>-->
+			
+		
+		</tr>
+		
+		<tr>
+			<td id='asterisksymbol'>*</td>
+			<td>First Name:</td>
+			<td class='centerCell'>
+				
+					<input type='text' ID='firstname' name='firstname' />
+				
+			</td>
+		</tr>
+		<tr>
+			<td id='asterisksymbol'>*</td>
+			<td>Last Name:</td>
+			<td class='centerCell'>
+				
+					<input type='text' ID='lastname' name='lastname' />
+					
+				
+			
+			</td>
+			
+		
+		</tr>
+		<tr>
+			<td colspan='1'></td>
+			<td>Business Name:</td>
+			<td class='centerCell'>
+				
+					<input type='text' ID='businessname' name='businessname' />
+				
+			
+			</td>
+			
+		
+		
+		</tr>
+		<tr>
+			<td id='asterisksymbol'>*</td>
+			<td>Street Address:</td>
+			<td class='centerCell'>
+				
+					<input type='text' ID='streetaddress' name='streetaddress' />
+				
+			
+			</td>
+			
+		
+		
+		</tr>
+		
+		
+		
+		<tr>
+			<td colspan='1'></td>
+			<td>Suite/Apt:</td>
+			<td class='centerCell'>
+				
+					<input type='text' ID='suiteapartment' name='streetapartment' />
+				
+			
+			</td>
+				
+		</tr>
+		<tr>
+			<td id='asterisksymbol'>*</td>
+			<td>City:</td>
+			<td class='centerCell'>
+				
+					<input type='text' ID='city' name='city' />
+				
+			
+			</td>
+				
+		</tr>
+		<tr>
+			<td id='asterisksymbol'>*</td>
+			<td>State:</td>
+			<td class='centerCell'>
+				
+					<input type='text' ID='state' name='state' />
+				
+			
+			</td>
+				
+		</tr>
+		<tr>
+			<td id='asterisksymbol'>*</td>
+			<td>Zip Code:</td>
+			<td class='centerCell'>
+				
+					<input type='text' ID='zipcode' name='zipcode' />
+				
+			
+			</td>
+				
+		</tr>
+		<tr>
+			<td id='asterisksymbol'>*</td>
+			<td>Phone Number:</td>
+			<td class='centerCell'>
+				
+					<input type='text' ID='phonenumber' name='phonenumber' />
+				
+			
+			</td>
+				
+		</tr>
+		
+		  
+	</table>
+			<input type="submit" value="Submit"   onClick="return confirm('Continue submitting?')" />
+			<input type="reset" value="Start Over" />
+
+		</form>
+		
+	
+		<!--<input type="submit" value="Submit">-->
+		</p>
+	</main>
+</body>
+
+
+</html>

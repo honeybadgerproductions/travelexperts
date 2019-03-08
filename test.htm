@@ -1,0 +1,37 @@
+<head>
+  <link rel="stylesheet" href="css/test.css">
+  <script src="scripts/test.js"></script>
+</head>
+
+<body>
+  <div class="banner">banner</div>
+  <div class="menu">
+    <!-- To open a page in the iframe, call openPage() with the page name and the menu index for the new
+        page passes as parameters-->
+    <table>
+      <tr>
+        <td><img class=pointer src='pointer.gif' width=20 height=20></td>
+        <td style="cursor: pointer" onMouseOver='mouseOver(this);' onmouseout='mouseOut(this);'>Home</td>
+      </tr>
+      <tr>
+        <td><img class=pointer src='pointer.gif' width=20 height=20 style="visibility:hidden"></td>
+        <td style="cursor: pointer" onMouseOver='mouseOver(this);' onmouseout='mouseOut(this);'
+          onclick="openPage('register1.html', 1)">Customer Registration
+        </td>
+      </tr>
+      <tr>
+        <td><img class=pointer src='pointer.gif' width=20 height=20 style="visibility:hidden"></td>
+        <td style="cursor: pointer" onMouseOver='mouseOver(this);' onmouseout='mouseOut(this);'>
+          Vacation Package
+        </td>
+      </tr>
+      <tr>
+        <td><img class=pointer src='pointer.gif' width=20 height=20 style="visibility:hidden"></td>
+        <td style="cursor: pointer" onMouseOver='mouseOver(this);' onmouseout='mouseOut(this);'
+          onclick="openPage('contact.html', 3)">Contact Us
+        </td>
+      </tr>
+    </table>
+  </div>
+  <iframe class=frame src="register1.html"></div>
+</body>
